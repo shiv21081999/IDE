@@ -1,0 +1,36 @@
+#containerjava {
+	height:100%;
+	width:100%;
+  white-space : nowrap; 
+  overflow : hidden;
+  position:relative;
+}
+#editorjava {
+    height: 100%;
+    width:100%;
+    position : absolute;
+    /* display:inline-block; */
+}
+#iframejava {
+    top : 40px;
+    height:80%;
+    width:50%;
+    background-color: white;
+    position : absolute;
+    z-index: 10;
+    bottom : 0px;
+    display: inline-block;
+    border : none;
+}
+#iframejavao{
+  top : 40px;
+  height:80%;
+  width:50%;
+  left : 50%;
+  background-color: white;
+  border-left: solid 1px;
+  position : absolute;
+  z-index: 10;
+  bottom : 0px;
+  display: inline-block;
+}
